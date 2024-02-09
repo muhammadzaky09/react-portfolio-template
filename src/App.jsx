@@ -17,7 +17,7 @@ import "aos/dist/aos.css";
 function App() {
   const [user, setUser] = useState({});
   const [userRepo, setUserRepo] = useState([]);
-  const githubUsername = "3r4y";
+  const githubUsername = "muhammadzaky09";
 
   const fetchData = async () => {
     const userResponse = await fetch(
@@ -52,15 +52,15 @@ function App() {
       <div className="py-4 m-auto max-w-4xl">
         <nav className="flex items-center justify-between">
           <h1 className="text-3xl text-[#e2ebf8] font-medium font-['Fonarto']">
-            <span className="text-[#05BFDB]">Eray</span>.codes
+            <span className="text-[#05BFDB]">Muhammad </span>Zaky
           </h1>
           <div className="flex gap-x-3">
-            <a href="https://dxgkr.nl/">
+            <a href="https://medium.com/@muhammad.zaky.firdaus">
               <button className="w-32 h-10 rounded-md text-sm text-[#fff] transition duration-300 hover:text-[#05BFDB]  font-semibold ">
-                Blog
+                Medium
               </button>
             </a>
-            <a href="mailto:contact@eray.codes">
+            <a href="mailto:muhammad.zaky.firdaus@mail.ugm.ac.id">
               <button className="w-32 h-10 rounded-md text-sm border-2 border-[#05BFDB] text-[#05BFDB] bg-transparent transition duration-300 hover:text-[#fff] hover:bg-[#05BFDB] font-semibold">
                 Contact me
               </button>
@@ -88,44 +88,28 @@ function App() {
               </div>
 
               <p className="text-lg font-medium">
-                I’m a full-stack developer, founder of{" "}
-                <a
-                  href="https://dxgkr.nl"
-                  className="decoration-2 decoration-wavy underline hover:text-[#05BFDB] hover:decoration-[#e2ebf8] decoration-[#05BFDB] font-bold transition duration-150"
-                >
-                  dxgkr.nl
-                </a>
-                . I am interested in low-level programming as a hobby. I'm a
-                tiny hacker.
+                I'm a computer science student and aspiring software developer based in Indonesia.
+                
               </p>
+              <p className="text-lg font-medium">
+                Passionate about building software that solves real-world problems utilising MERN Stack, React Native, Flutter.
+              </p>
+             
               <div className="flex py-8 font-bold">
                 <a href="https://github.com/3r4y">
                   <button className="flex justify-center items-center w-32 gap-x-2 transition duration-300 rounded-full text-base bg-[#10151a] text-[#fff] hover:text-[#10151a] hover:bg-[#fff] m-2 p-2">
                     <FaGithub /> GitHub
                   </button>
                 </a>
-                <a href="https://twitter.com/vmdeveloper">
-                  <button className="flex justify-center items-center w-32 gap-x-2 transition duration-300 rounded-full text-base bg-[#0a7ff5] text-[#fff] hover:text-[#0a7ff5] hover:bg-[#fff] m-2 p-2">
-                    <FaTwitter />
-                    Twitter
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/muhammadzakyf/">
                   <button className="flex justify-center items-center w-32 gap-x-2 transition duration-300 rounded-full text-base bg-[#0072b1] text-[#fff]  hover:text-[#0072b1] hover:bg-[#fff] m-2 p-2">
                     <FaLinkedinIn />
                     LinkedIn
                   </button>
                 </a>
-                <a href="https://www.behance.net/3r4y">
+                <a href="https://drive.google.com/file/d/1lV_XNSvZnernr3Y31h5UBrrMT09wW0tE/view?usp=sharing">
                   <button className="flex justify-center items-center w-32 gap-x-2 transition duration-300 rounded-full text-base bg-[#030303] text-[#fff]  hover:text-[#030303] hover:bg-[#fff] m-2 p-2">
-                    <FaBehance />
-                    Behance
-                  </button>
-                </a>
-                <a href="https://dribbble.com/eraydev">
-                  <button className="flex justify-center items-center w-32 gap-x-2 transition duration-300 rounded-full text-base bg-[#EA4C89] text-[#fff]  hover:text-[#EA4C89] hover:bg-[#fff] m-2 p-2">
-                    <FaDribbble />
-                    Dribbble
+                    CV
                   </button>
                 </a>
               </div>
